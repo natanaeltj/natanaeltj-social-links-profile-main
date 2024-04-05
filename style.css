@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+@font-face {
+  font-family:'Inter';
+  src: url('assets/fonts/static/Inter-Bold.otf') format(-opentype);
+}
+
+body {
+  font-size: 11px; text-align: center;
+  color: white;
+  background-color:  #141414;
+ 
+}
+section{
+  padding: 20px 20px 44px 20px;
+  background-color: #1F1F1F;
+  width: 350px;
+  height: 548px;
+  margin: 100px auto;
+  border-radius: 20px;
+
+}
+
+img{
+  border-radius: 100%;
+
+}
+
+div{
+  color: white;
+  
+}
+.sms{
+background-color: #333333;
+height: 45px;
+margin: 11px 16px;
+border-radius: 5px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 40%;
+  
+}
+.sms:hover{
+  background-color: rgb(133, 192, 45);
+  box-shadow: #141414 3px 3px 4px;
+}
+.sms:active{
+  background-color: rgb(101, 147, 33) ;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+
+}
+
+
