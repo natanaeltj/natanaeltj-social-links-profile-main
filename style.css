@@ -1,10 +1,21 @@
 @charset "utf-8";
 
 @font-face {
-  font-family:'Inter';
+  font-family:Inter-bold;
   src: url('assets/fonts/static/Inter-Bold.otf') format(-opentype);
 }
-
+@font-face {
+  font-family: Inter-regular;
+  src: url('assets/fonts/static/Inter-Regular.ttf');
+}
+@font-face {
+  font-family: Inter-semibold;
+  src: url('assets/fonts/static/Inter-SemiBold.ttf');
+}
+@font-face {
+  font-family: inter-variable;
+  src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
 body {
   font-size: 11px; text-align: center;
   color: white;
@@ -20,15 +31,11 @@ section{
   border-radius: 20px;
 
 }
-
 img{
   border-radius: 100%;
-
 }
-
 div{
   color: white;
-  
 }
 .sms{
 background-color: #333333;
@@ -39,10 +46,8 @@ text-align: center;
 display: flex;
 justify-content: center;
 align-items: center;
-
-
+font-family: Inter-semibold;
 }
-
 a{
   text-decoration: none;
   color: white;
@@ -50,7 +55,6 @@ a{
   text-align: center;
   font-size: 15px;
   padding: 10px 40%;
-  
 }
 .sms:hover{
   background-color: rgb(133, 192, 45);
